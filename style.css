@@ -1,0 +1,114 @@
+/* Body */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background: #e0f7f5; /* soft teal background */
+  color: #1a1a1a;
+}
+
+/* Navbar */
+nav {
+  background: #00796b; /* deep teal */
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+nav a {
+  color: #fff8e7; /* soft gold */
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  transition: 0.3s;
+}
+nav a:hover {
+  color: #ffd700; /* bright gold pop */
+  text-decoration: underline;
+}
+
+/* Header / Hero */
+header {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #26a69a, #00796b); /* teal gradient */
+  color: #fff8e7;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+header h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  color: #ffd700; /* luxurious gold */
+}
+header p {
+  font-size: 1.3em;
+  color: #f0f8f5; /* soft accent */
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+/* Card */
+.card {
+  background: #ffffff; /* crisp white */
+  padding: 25px 20px;
+  margin: 20px 0;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+  transition: 0.3s;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+}
+.card h3 {
+  color: #00796b; /* teal titles */
+  margin-bottom: 10px;
+  font-size: 1.6em;
+}
+.card ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.card li {
+  margin: 8px 0;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  color: #1a1a1a;
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  background: #00796b; /* deep teal */
+  color: #ffd700; /* gold text */
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.btn:hover {
+  background: #004d40; /* darker teal on hover */
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #00796b; /* same teal as navbar */
+  color: #ffd700; /* gold text */
+  padding: 20px 0;
+  font-size: 14px;
+  margin-top: 40px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
